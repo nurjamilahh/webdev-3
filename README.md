@@ -6,14 +6,14 @@ Here are the key features implemented during the development of this personal po
 
 - _Fully Responsive Design_: The website was developed using a mobile-first approach, ensuring the layout and content adapt flawlessly across various screen sizes, from mobile devices to large desktop monitors.
 
-- _Semantic HTML Structure_: Content is meticulously organized using semantic HTML5 tags (<header>, <main>, <section>, <footer>, etc.) to enhance code readability, boost SEO performance, and ensure proper support for assistive technologies like screen readers.
+- _Semantic HTML Structure_: Content is meticulously organized using semantic HTML5 tags (**<header>**, **<main>**, **<section>**, **<footer>**, etc.) to enhance code readability, boost SEO performance, and ensure proper support for assistive technologies like screen readers.
 
 - _Enhanced Visual Styling_: Implementation of modern CSS techniques (including Flexbox and/or Grid) to create a clean, engaging aesthetic and an intuitive navigational experience.
 
 - _Focus on Accessibility and UX_: Best practices for Web Content Accessibility Guidelines (WCAG) were implemented, including descriptive alt attributes, sufficient color contrast, and logical keyboard navigation, to ensure an optimal user experience for all visitors.
 
 ## Technologies used ##
-** Category     |Technology	       | Purpose  **
+ **Category**   |**Technology**	   | **Purpose**
 ---------------------------------------------------------------------------------------------------------------------
 Markup Language	|HTML5	           |Used for the semantic structure and organization of all website content.
 Styling	        |CSS3	           |Responsible for all visual styling, layout, responsive design, and animations.
