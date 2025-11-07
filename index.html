@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nur Jamilah | Web Developer Profile and Portfolio</title>
+
+    <meta name="author" content="Nur Jamilah Harahap">
+    <meta name="description" content="Nur Jamilah | Software Engineer. Explore my portfolio and professional experience. Let's build something great!">
+    
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            padding: 20px;
+            margin: 10px;
+            background: linear-gradient(to right, #FFDF00, #D4AF37, #FFD700);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+        nav, main {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: goldenrod;
+        }
+        nav a:hover {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+        .navbar-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #D4AF37;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-primary:hover {
+            background-color: #FFD700;
+        }
+        .h2-color {
+            color: #D4AF37;
+        }
+        .footer-icon {
+            width: 34px;
+            height: 34px;
+            margin: 0 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1> 
+     
+    <nav>
+        <ul class="navbar-list">
+            <li><a href="#home" class="current" aria-current="page">| Home</a></li>
+            <li><a href="#about">| About Me</a></li>
+            <li><a href="#projects">| My Projects</a></li>
+            <li><a href="pages/contact.html">| Contact Me</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+
+<!-- Home Section -->
+        <br>
+        <section id="home">
+            <h2 style="text-align: center;">Hello, I'm Nur Jamilah</h2>
+
+            <img src="images/NurJH professional photo2.jpg" alt="Nur Photo" style="display: block; margin: 0 auto; width: 200px; height: 200px; border-radius: 50%;">
+             
+            <p style="text-align: center;">I am a <strong>Software Engineer</strong> with a focus on web development.</p> 
+            <p style="text-align: center;">Explore my portfolio to see my latest projects and professional experience.
+            </p>
+            <p style="text-align: center;"><i>Let's build the next great idea!</i>
+            </p>
+
+            <div style="text-align: center;" class="cta-buttons">   
+                <a href="#projects" class="btn-primary" >View My Projects</a>
+            </div>
+        </section>
+
+
+<!-- About Me Section -->
+        <br>
+        <section id="about">
+            <h2 class="h2-color">About Me</h2>
+            
+            <p class="about-narrative">
+            I'm a passionate <strong>Software Engineer</strong> specializing in the full-stack development life cycle. My journey began with a curiosity for how complex systems are built, and it evolved into a commitment to crafting <i>user-centric, highly efficient applications</i>. I believe the best code is clean, well-tested, and solves real-world problems.
+            </p>
+
+            <section class="education">
+                <h3>Education and Qualifications</h3>
+                <p>Full-Stack Software Engineering Program at RevoU | Oct 2025 - Jun 2026.</p>
+            </section>  
+
+            <section class="work-experience">
+                <h3>Professional Experience (Transferrable Skills)</h3>
+                <p>Assets Manager and Property Appraiser | Aug 2008 - now.</p>
+
+                <ul>
+                    <li>Managed and appraised a diverse portfolio of assets, demonstrating proficiency in <i>data integrity</i> and <i>meticulous documentation</i>.
+                    <li>Developed strong analytical and problem-solving skills through detailed property assessments.</li>
+                    <li>Collaborated with cross-functional teams to streamline asset management processes.</li>
+            </section>
+
+        </section>
+<br><br>
+<!-- Projects Section -->    
+
+        <section id="projects">
+            <h2 class="h2-color">My Portfolio of Work & Future Initiatives</h2>
+            <p>Explore a selection of my completed projects and get a glimpse of what I'm currently building. As an engineer focused on continuous growth, this section will be regularly updated with new applications demonstrating my latest skills from the RevoU program.
+            </p>
+
+            <article class="project-completed">
+                <h3>[For Example] Project 1: Full Stack E-commerce Site</h3>
+                <figure> 
+                    <img src="images/ecommerce-site.jpg" alt="Screenshot of Full Stack E-commerce Site">
+                    <figcaption>Full Stack E-commerce Site</figcaption>
+                </figure>
+
+                <p>[For Example] An e-commerce web application with user authentication, product listings, and a shopping cart. Built with React, Node.js, and PostgreSQL.</p>
+            </article>
+
+            <article class="project-future">
+                <h3>[Future Project: Real-time Data Dashboard]</h3>
+                <figure> 
+                    <img src="images/task-manager.jpg" alt="Screenshot of Task Management App">
+                    <figcaption>Task Management App</figcaption>
+                </figure>
+
+                <p>**In Development**
+                </p>
+
+        </section>
+    </main>
+
+<!-- Footer Section with Link Icon -->
+ 
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> Nur Jamilah</p>
+    
+        <nav aria-label="contact links">
+        
+            <a href="mailto:worknurjam@gmail.com" title="Email"><img src="logos/gold email logo.jpg" alt="Email Icon" class="footer-icon"></a>
+        
+            <a href="https://linkedin.com/in/nurjamilah" target="_blank" title="LinkedIn"><img src="logos/LinkedIn logo.png" alt="LinkedIn Icon" class="footer-icon"></a>
+            
+            <a href="https://github.com/nurjamilahh" target="_blank" title="GitHub"><img src="logos/github logo2.png" alt="GitHub Icon" class="footer-icon"></a>
+            
+            <a href="#top" title="To the top">To the top</a>    
+        
+        </nav>
+
+    </footer>
+    
+</body>
+</html>
