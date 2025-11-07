@@ -51,9 +51,11 @@
         <i>My inbox is always open!</i>
         </p>
 
-<!-- Contact Form and Using Fieldset, -->
+<!-- Contact Form Action to Email -->
         
-        <form action="/submit-data" method="post" style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <form action="mailto:worknurjam@gmail.com" method="post" style="max-width: 600px; margin: 0 auto; text-align: center;" enctype="text/plain">
+
+<!-- Fieldset For Input Part -->
             
             <fieldset style="background: linear-gradient(to right, #FFDF00, #D4AF37, #FFD700);
             ">                   
@@ -75,7 +77,6 @@
 
                     <input type="radio" id="country" name="country" value="Other Country">
                     <label for="Other Country">Other Country</label>
-
                 </div>
 
                 <br>
@@ -92,7 +93,7 @@
        
         <br>
 
- <!-- Other Contact Info in Table -->   
+ <!-- Other Contact Info in A Table -->   
 
         <table align="center">
             <thead>

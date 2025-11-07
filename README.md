@@ -1,4 +1,4 @@
-# Milestone 1 - Module 1: Web Development Essentials
+# Milestone 1 [Project Assignment] WOW2 - Module 1: Web Development Essentials
 
 ## 🌐 Live Website Link (Direct Link)
   You can view the live deployment result of this assignment directly at https://revou-fsse-oct25.github.io/milestone-1-nurjamilahh/.
