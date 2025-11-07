@@ -1,3 +1,8 @@
+# Milestone 1 - Module 1: Web Development Essentials
+
+## 🌐 Live Website Link (Direct Link)
+  You can view the live deployment result of this assignment directly at https://revou-fsse-oct25.github.io/milestone-1-nurjamilahh/.
+
 ## Overview of the website ##
   This is my official personal website and professional portfolio. As a Full-Stack Software Engineer focused on scalable web applications, the primary goal of this site is to showcase my skills, demonstrate proficiency with modern web technologies, and provide a clear overview of my past projects and contributions. Visitors can easily navigate to my key work and read about my development process.
 
