@@ -3,7 +3,6 @@
 
 ## 🚀 Live Website Link
 **You can view the live deployment result of this assignment directly here:**
-[**Primary Domain**](www.nurjamilahh.online)
 [**Click to View Live Website**](https://revou-fsse-oct25.github.io/milestone-1-nurjamilahh/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
