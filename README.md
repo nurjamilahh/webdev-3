@@ -79,7 +79,7 @@ Since this is a static front-end portfolio site, it can be viewed directly after
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd milestone-1-nurjamilahh
     ```
 3.  Open the `index.html` file in your preferred web browser to view the site.
 
