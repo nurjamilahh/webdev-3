@@ -1,0 +1,54 @@
+/* 
+ * File Name: style.css
+ * Description: Assignment#2
+ * Version: 1.0
+ * Author: Nur Jamilah
+ * Creation Date: 2025-11-12
+*/
+
+/* BASIC STYLING */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header, footer {
+    padding: 16px;
+    margin: 8px;
+    background: linear-gradient(to right, #FFDF00, #D4AF37, #FFD700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center; 
+}
+nav, main {
+    margin: 12px;
+    padding: 24px;
+    background: white
+}
+nav ul li {
+    display: inline;
+    margin-right: 16px;
+}
+nav a {
+    text-decoration: none;
+    color:goldenrod;
+}
+nav a:hover {
+    color:#FFD700;
+    text-decoration: underline;
+}
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.btn-primary {
+    display: inline-block;
+    padding: 8px 16px
+
+
+}
