@@ -1,4 +1,4 @@
-# 💻 [Project Assignment] W3W4 - Module 2: CSS Implementation
+# 💻 Module 2 (W3W4): CSS Implementation 
 
 
 ## 🚀 Live Website Link

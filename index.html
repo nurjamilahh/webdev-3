@@ -1,128 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nur Jamilah | Web Developer Profile and Portfolio</title>
-
     <meta name="author" content="Nur Jamilah Harahap">
-    <meta name="description" content="Nur Jamilah | Software Engineer. Explore my portfolio and professional experience. Let's build something great!">
-    
+    <meta name="description" content="CSS (Cascading Style Sheet) as a styling language for web pages.">
+
+    <title>CSS Module: Exercises</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="style.css"> 
+        
 </head>
-
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1> 
-     
-    <nav aria-label="main-navigation">
-        <ul class="navbar-list">
-            <li><a href="#home">| Home</a></li>
-            <li><a href="#about">| About Me</a></li>
-            <li><a href="#projects">| My Projects</a></li>
-            <li><a href="pages/contact.html">| Contact Me</a></li>
-        </ul>
-    </nav>
+
+    <header class="site-header">
+        <div class="header-container">
+            <h1>My Blog</h1>
+            <nav class="main-navigation">
+                <a href="index.html">Home</a>
+                <a href="index.html#about-the-author">About Me</a>
+                <a href="#">My Projects</a>
+                <a href="#">Contact Me</a>
+            </nav>
+        </div>
     </header>
+    
+    <div class="search-bar">
+        <div class="container">
+            <input type="text" placeholder="Search...">
+            <button aria-label="search">Search Icon</button>
+        </div>
+    </div>
 
-    <main>
+    <main class="container main-content">
+        <section class="latest-posts">
+            <h2>Latest Posts</h2>
 
-<!-- Home Section -->
-        <br>
-        <section id="home">
-            <h2 style="text-align: center;">Hello, I'm Nur Jamilah</h2>
-
-            <img src="images/NurJH professional photo2.jpg" alt="Nur Photo" style="display: block; margin: 0 auto; width: 200px; height: 200px; border-radius: 50%;">
-             
-            <p style="text-align: center;">I am a <strong>Software Engineer</strong> with a focus on web development.</p> 
-            <p style="text-align: center;">Explore my portfolio to see my latest projects and professional experience.
-            </p>
-            <p style="text-align: center;"><i>Let's build the next great idea!</i>
-            </p>
-
-            <div style="text-align: center;" class="cta-buttons">   
-                <a href="#projects" class="btn-primary" >View My Projects</a>
-            </div>
-        </section>
-
-
-<!-- About Me Section -->
-        <br>
-        <section id="about">
-            <h2 class="h2-color">About Me</h2>
-            
-            <p class="about-narrative">
-            I'm a passionate <strong>Software Engineer</strong> specializing in the full-stack development life cycle. My journey began with a curiosity for how complex systems are built, and it evolved into a commitment to crafting <i>user-centric, highly efficient applications</i>. I believe the best code is clean, well-tested, and solves real-world problems.
-            </p>
-
-            <section class="education">
-                <h3>Education and Qualifications</h3>
-                <p>Full-Stack Software Engineering Program at RevoU | Oct 2025 - Jun 2026.</p>
-            </section>  
-
-            <section class="work-experience">
-                <h3>Professional Experience (Transferrable Skills)</h3>
-                <p>Assets Manager and Property Appraiser | Aug 2008 - now.</p>
-
-                <ul>
-                    <li>Managed and appraised a diverse portfolio of assets, demonstrating proficiency in <i>data integrity</i> and <i>meticulous documentation</i>.
-                    <li>Developed strong analytical and problem-solving skills through detailed property assessments.</li>
-                    <li>Collaborated with cross-functional teams to streamline asset management processes.</li>
-            </section>
-
-        </section>
-<br><br>
-<!-- Projects Section -->    
-
-        <section id="projects">
-            <h2 class="h2-color">My Portfolio of Work & Future Initiatives</h2>
-            <p>Explore a selection of my completed projects and get a glimpse of what I'm currently building. As an engineer focused on continuous growth, this section will be regularly updated with new applications demonstrating my latest skills from the RevoU program.
-            </p>
-
-            <article class="project-completed">
-                <h3>[For Example] Project 1: Full Stack E-commerce Site</h3>
-                <figure> 
-                    <img src="images/ecommerce-site.jpg" alt="Screenshot of Full Stack E-commerce Site">
-                    <figcaption>Full Stack E-commerce Site</figcaption>
-                </figure>
-
-                <p>[For Example] An e-commerce web application with user authentication, product listings, and a shopping cart. Built with React, Node.js, and PostgreSQL.</p>
+            <article class="post-card">
+                <img src="images/blue-evening.jpg" alt="first line image" class="post-image">
+                <div class="post-details">
+                    <h3>CSS Module: Exercises</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis ipsam enim ullam eos rerum ipsa quidem, quasi iusto architecto! Voluptate eum omnis, odio hic laudantium obcaecati neque. Ratione, maxime.</p>
+                    <a href="#" class="read-more-link">Read more &rarr;</a>
+                </div>
+            </article>
+                    
+            <article class="post-card">
+                <img src="images/Boat-RiverCruise-WayKambas.jpg.jpg" alt="WayKambas-Boat" class="post-image">
+                <div class="post-details">
+                    <h3>Valuation of River Cruise Boat Services in Way Kambas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis ipsam enim ullam eos rerum ipsa quidem, quasi iusto architecto! Voluptate eum omnis, odio hic laudantium obcaecati neque. Ratione, maxime.</p>
+                    <a href="#" class="read-more-link">Read more &rarr;</a>
+                </div>
             </article>
 
-            <article class="project-future">
-                <h3>[Future Project: Real-time Data Dashboard]</h3>
-                <figure> 
-                    <img src="images/task-manager.jpg" alt="Screenshot of Task Management App">
-                    <figcaption>Task Management App</figcaption>
-                </figure>
-
-                <p>**In Development**
-                </p>
-
+            <article class="featured-article">
+                <img src="images/BandarLampung-CityView.jpg.jpg" alt="BandarLampung" class="featured-image-top">
+                <div class="featured-article-content">
+                    <h2>City View</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis ipsam enim ullam eos rerum ipsa quidem, quasi iusto architecto! Voluptate eum omnis, odio hic laudantium obcaecati neque. Ratione, maxime.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et tenetur nesciunt veniam dicta excepturi doloremque in placeat officia harum!</p>
+                    <a href="#" class="read-full">Read full article &rarr;</a>
+                </div>
+            </article>           
         </section>
+
+
+        <aside class="sidebar">
+
+            <div class="categories-widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Software Engineering Journey</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Asset Management</a></li>
+                </ul>
+            </div>
+
+            <div class="author-widget" id="about-the-author">             
+                <h3>About the Author</h3>
+                <div class="author-info">
+                    <img src="images/NurJH-pro-foto-nobg.jpg" alt="me as author" class="author-image">
+                    <div class="author-details">
+                        <h4>Nur Jamilah</h4>
+                        <p class="author-title">Web Developer & Designer</p>
+                    </div>
+                </div>
+                
+                    <p class="author-bio">I'm a passionate Software Engineer specializing in the full-stack development life cycle. I traded spreadsheets for syntax! 🔄 After a rewarding start in Asset Management and Property Valuation/Appraisal, I'm now immersing myself in the world of full-stack software development. My journey began with a curiosity for how complex systems are built, and it evolved into a commitment to crafting user-centric, highly efficient applications. I approach coding with the same focus on value creation and structured thinking that I honed in my previous career. I believe the best code is clean, well-tested, and solves real-world problems.</p>
+            </div>
+        </aside>
     </main>
 
-<!-- Footer Section with Link Icon -->
- 
-    <footer>
-        <p>&copy; <time datetime="2025">2025</time> Nur Jamilah</p>
-    
-        <nav aria-label="contact links">
-        
-            <a href="mailto:worknurjam@gmail.com" title="Email"><img src="logos/gold email logo.jpg" alt="Email Icon" class="footer-icon"></a>
-        
-            <a href="https://linkedin.com/in/nurjamilah" target="_blank" title="LinkedIn"><img src="logos/LinkedIn logo.png" alt="LinkedIn Icon" class="footer-icon"></a>
-            
-            <a href="https://github.com/nurjamilahh" target="_blank" title="GitHub"><img src="logos/github logo2.png" alt="GitHub Icon" class="footer-icon"></a>
-            
-            <a href="#top" title="To the top">To the top</a>    
-        
-        </nav>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-col blog-info">
+                <h3>My Website</h3>
+                <p>Exploring the latest info and design on my website</p>
+            </div>
 
-    </footer>
-    
+            <div class="footer-col quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about-the-author">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col follow-us">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
