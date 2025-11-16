@@ -9,33 +9,9 @@
     <meta name="author" content="Nur Jamilah Harahap">
     <meta name="description" content="Nur Jamilah | Software Engineer. Explore my portfolio and professional experience. Let's build something great!">
 
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../pages/style-contact.css">
 
 </head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header, footer {
-            padding: 20px;
-            margin: 10px;
-            background: linear-gradient(to right, #FFDF00, #D4AF37, #FFD700);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-align: center;
-        }
-        nav, main {
-            padding: 20px;
-            margin: 10px;
-            background: white;
-        }
-    </style> 
-</head> 
 
 <body>
     
@@ -45,85 +21,48 @@
     
     <main style="text-align: center;">
         <h2>Get in Touch 🤝</h2>
-
+        <br>
         <p>Have a project idea, a job opportunity, or just want to chat about tech?</p>
         <p>
         <i>My inbox is always open!</i>
         </p>
+        <br>
 
 <!-- Contact Form Action to Email -->
         
         <form action="mailto:worknurjam@gmail.com" method="post" style="max-width: 600px; margin: 0 auto; text-align: center;" enctype="text/plain">
 
 <!-- Fieldset For Input Part -->
-            
-            <fieldset style="background: linear-gradient(to right, #FFDF00, #D4AF37, #FFD700);
-            ">                   
-                <div>
-                    <label for="name">Name*</label>
-                    <input type="text" id="name" name="name" style="left: auto;"  required placeholder="Your Name...">
-                </div>
-
-                <div>
-                    <label for="email">Email*</label>
-                    <input type="email" id="email" name="email" style="left: auto;" required placeholder="youremail@mail.com">
-                </div>
-
-                <div>
-                    <label>Country</label>
-
-                    <input type="radio" id="Indonesia" name="country" value="Indonesia" style="left: auto;"  checked>
-                    <label for="Indonesia">Indonesia</label>
-
-                    <input type="radio" id="country" name="country" value="Other Country">
-                    <label for="Other Country">Other Country</label>
-                </div>
-
-                <br>
-                <div>
-                    <label for="message">Message*</label>
-                <div>
-                     <textarea id="message" name="message" style="top: auto;" rows="5" cols="50" required placeholder="Your message here..."></textarea>
-                </div>
-
-            <button type="submit">Send Message</button>
-
-            </fieldset>
+           <form action="submit_form.php" method="POST" class="contact-form">
+    <h2>Hubungi Kami</h2>
+    
+    <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Alamat Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="subject">Subjek</label>
+        <input type="text" id="subject" name="subject" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Pesan Anda</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">Kirim Pesan</button>
+</form>
         </form>
        
         <br>
 
- <!-- Other Contact Info in A Table -->   
-
-        <table align="center">
-            <thead>
-                <tr>
-                <b>You can also find me here:</b>
-                </tr>
-            </thead>
-
-            <tbody>
-
-                <tr>
-                    <td style="width: 50px;"><img src="../logos/gold email logo.jpg" alt="Email Icon" style="width: 40px; height: 40px; ">
-                    </td>
-                    <td style="width: 100px;">worknurjam@gmail.com</td>
-                </tr>
-            
-                <tr>
-                    <td style="width: 50px;"><img src="../logos/LinkedIn logo.png " alt="LinkedIn Icon" style="width: 40px; height: 40px; ">
-                    </td>
-                    <td>linkedin.com/in/nurjamilah</td>
-                </tr>
-
-                <tr>
-                    <td style="width: 50px;"><img src="../logos/github logo2.png" alt="GitHub Icon" style="width: 40px; height: 40px; ">
-                    </td>
-                    <td>github.com/nurjamilahh</td>
-                </tr>
-            </tbody>
-        </table>
-            
+ 
         <p>    
             <a href="../index.html" title="Back to Main">Back to Main</a>      
         </p>
@@ -131,7 +70,7 @@
     </main>
 
         <footer>
-            <p>&copy; <time datetime="2025">2025</time> Nur Jamilah</p>
+            <p class="copyright">© 2025 Nur Jamilah</p>
         </footer>
 
 </body>

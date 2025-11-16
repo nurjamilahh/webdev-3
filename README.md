@@ -90,7 +90,7 @@ Since this is a static front-end portfolio site, it can be viewed directly after
 If you'd like to chat, network, or discuss my journey, please feel free to reach out!
 
 * **Contact Form:** Drop your message directly via the contact form on the website (Click **"Contact Me"**).
-* **LinkedIn:** [https://www.linkedin.com/in/nur-jamilah-532502266/](https://www.linkedin.com/in/nur-jamilah-532502266/)
+* **LinkedIn:** [https://www.linkedin.com/in/nurjamilah-h/](https://www.linkedin.com/in/nurjamilah-h/)
 * **Email:** worknurjam@gmail.com
 
 ---
