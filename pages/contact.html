@@ -7,71 +7,41 @@
     <title>Contact Nur Jamilah | Software Engineer</title>
 
     <meta name="author" content="Nur Jamilah Harahap">
-    <meta name="description" content="Nur Jamilah | Software Engineer. Explore my portfolio and professional experience. Let's build something great!">
+    <meta name="description" content="Nur Jamilah | Software Engineer & Asset Manager">
 
-    <link rel="stylesheet" href="../pages/style-contact.css">
+    <link rel="stylesheet" type="text/css" href="style-contact.css">
 
 </head>
 
 <body>
-    
-    <header>
-        <h1>Nur Jamilah's Website</h1>
+    <header class="site-header">
+        <div class="header-container">
+            <h1 class="site-title">My Website</h1>          
+        </div>
     </header>
-    
-    <main style="text-align: center;">
-        <h2>Get in Touch 🤝</h2>
-        <br>
-        <p>Have a project idea, a job opportunity, or just want to chat about tech?</p>
-        <p>
-        <i>My inbox is always open!</i>
-        </p>
-        <br>
 
-<!-- Contact Form Action to Email -->
-        
-        <form action="mailto:worknurjam@gmail.com" method="post" style="max-width: 600px; margin: 0 auto; text-align: center;" enctype="text/plain">
-
-<!-- Fieldset For Input Part -->
-           <form action="submit_form.php" method="POST" class="contact-form">
-    <h2>Hubungi Kami</h2>
-    
-    <div class="form-group">
-        <label for="name">Nama Lengkap</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-    
-    <div class="form-group">
-        <label for="email">Alamat Email</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    
-    <div class="form-group">
-        <label for="subject">Subjek</label>
-        <input type="text" id="subject" name="subject" required>
-    </div>
-    
-    <div class="form-group">
-        <label for="message">Pesan Anda</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-    </div>
-    
-    <button type="submit" class="submit-btn">Kirim Pesan</button>
-</form>
-        </form>
-       
-        <br>
-
- 
-        <p>    
-            <a href="../index.html" title="Back to Main">Back to Main</a>      
-        </p>
-       
+    <main>
+        <div class="contact">
+            <h2 class="title">Contact Me</h2>
+            <hr>
+            <form action="#" method="post">
+                <label>First Name</label>
+                <input type="text" name="firstname" class="form-input" placeholder="Your First Name" autocomplete="off">
+                <label>Last Name</label>
+                <input type="text" name="lastname" class="form-input" placeholder="Your Last Name" autocomplete="off">
+                <label>Country</label>
+                <input type="text" name="country" class="form-input" placeholder="Your Country" autocomplete="off">
+                <label>Message</label>
+                <textarea name="message" class="form-input" placeholder="Write Your Message" autocomplete="off"></textarea>
+                <input type="submit" name="submit" class="submit">
+            </form>
+        </div>
+            <a href="../index.html" class="back-link">Back To Main</a>   
     </main>
 
-        <footer>
-            <p class="copyright">© 2025 Nur Jamilah</p>
-        </footer>
+    <footer class="site-footer"> 
+        <p class="copyright">© 2025 Nur Jamilah</p>
+    </footer>
 
 </body>
 </html>
