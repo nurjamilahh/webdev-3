@@ -22,6 +22,11 @@ body {
     margin: 0 auto;
     padding: 20px 0;
 }
+/* .main-navigation ul { 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+} */
 
 /* HEADER */
 .site-header {
@@ -39,13 +44,11 @@ body {
     height: 60px; 
 }
 .main-navigation a {
-    text-decoration: none; /* Remove underline */
-    color: #666; /* Slightly darker than the surrounding white */
-    font-size: 1em; /* Slightly smaller text for links */
-    margin-left: 20px; /* Space between the links */
-    /* Align with the text weight in the image */
+    text-decoration: none;
+    color: #666; 
+    font-size: 1em; 
+    margin-left: 20px;
     font-weight: normal; 
-    /* Smooth transition for hover effect */
     transition: color 0.2s;
 }
 .main-navigation a:hover, 
@@ -91,9 +94,9 @@ body {
 
 /* MAIN CONTENT */
 .main-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 32px 20px;
 }
 
@@ -284,7 +287,7 @@ body {
     background-color: #24262b;
     color: #fff;
     padding: 32px 20px;
-    margin-top: 40px 20px 20px;
+    margin-top: 40px;
 }
 .footer-content {
     display: flex;
@@ -343,8 +346,16 @@ body {
     margin: 0;          
     border-top: 1px solid #333;
 }
-/* MEDIA QUERIES FOR TABLET (min-width: 600px) */
 
+/* MOBILE DEFAULT */
+.hamburger-icon {
+    display: block;
+}
+.main-navigation { 
+    display: none;
+}
+
+/* 📱 MOBILE - FIRST (min-width: 600px) */
 @media (min-width: 600px) {
     .post-card {
         display: flex; 
@@ -355,44 +366,46 @@ body {
         max-height: none; 
     }
     .post-details {
-        width: 60%;
-    }
-     .main-content {
-        grid-template-columns: 1fr;
+        width: 60%; 
     }
 }
 
+/* 💻 MEDIA QUERIES FOR DESKTOP (min-width: 900px) */
 
-/* MEDIA DESKTOP (min-width: 900px) */
 @media (min-width: 900px) {
-    .header .container {
-        flex-direction: row;
+    .hamburger-icon {
+        display: none; 
+    }
+    .main-navigation {
+        display: block;
+    }
+    /* .main-navigation ul {
+        display: flex;
+        position: static; 
+        flex-direction: row; 
+    }
+    .main-navigation li {
+        margin-left: 20px;
+    } */
+    .header-container {
+        margin: 0 auto;
+        padding: 0 20px; 
+        
+        display: flex;
+        flex-direction: row; 
         justify-content: space-between; 
+        align-items: center; 
     }
-    .main-content {
-        grid-template-columns: 2fr 1fr;
+    .header-container h1 {
+        margin-bottom: 0; 
     }
-    .header-container,
     .navigation-container {
         max-width: 1200px;
         margin: 0 auto;
     }
-}
-
-/* Media Query untuk tampilan desktop/layar lebar (min-width: 768px) */
-@media (min-width: 768px) {
-    .header-container {
-        /* Mengubah tata letak menjadi horizontal untuk desktop */
-        flex-direction: row; 
-        justify-content: space-between; /* Judul di kiri, Navigasi di kanan */
-        align-items: center; 
-        
-        /* Batasan lebar dan penempatan tengah */
-        max-width: 1200px; 
-        margin: 0 auto;
-        padding: 0 20px; 
-    }
-    .header-container h1 {
-        margin-bottom: 0; 
+    .main-content {
+        display: grid; 
+        grid-template-columns: 2fr 1fr; 
+        gap: 20px;
     }
 }
