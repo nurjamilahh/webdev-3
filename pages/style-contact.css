@@ -29,8 +29,9 @@ body {
 }
 .contact {
     width: 600px;
+    align-items: center;
     margin-top: 40px auto;
-    margin-left: 30%;;
+    margin-left: 34%;
     border-radius: 8px;
     border: 2px solid #ccc;
     background-color: #f2f2f2;

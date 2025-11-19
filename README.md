@@ -65,7 +65,7 @@ This highlights the specific use of **Flexbox** for arranging the portfolio card
 
 * **HTML5:** Used for the semantic and accessible structure of the content.
 * **CSS3:** Primary styling language, focusing on **Layout, Responsiveness,** and **Aesthetics**.
-* **JavaScript:** A hamburger menu.
+* **JavaScript:** Used for the hamburger icon.
 
 ---
 
