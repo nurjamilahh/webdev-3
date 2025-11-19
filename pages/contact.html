@@ -8,20 +8,21 @@
 
     <meta name="author" content="Nur Jamilah Harahap">
     <meta name="description" content="Nur Jamilah | Software Engineer & Asset Manager">
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" type="text/css" href="style-contact.css">
 
 </head>
 
 <body>
-    <header class="site-header">
+     <header class="site-header bg-gradient-to-r from-yellow-200 to-yellow-500 md:p-2">
         <div class="header-container">
-            <h1 class="site-title">My Website</h1>          
+            
+            <h1 class="font-bold text-2xl">My Website</h1>          
         </div>
     </header>
 
     <main>
-        <div class="contact">
+        <div class="contact shadow-xl shadow-yellow-200/50">
             <h2 class="title">Contact Me</h2>
             <hr>
             <form action="#" method="post">
@@ -33,7 +34,10 @@
                 <input type="text" name="country" class="form-input" placeholder="Your Country" autocomplete="off">
                 <label>Message</label>
                 <textarea name="message" class="form-input" placeholder="Write Your Message" autocomplete="off"></textarea>
-                <input type="submit" name="submit" class="submit">
+                <!-- <input type="submit" name="submit" class="submit"> -->
+                <button type="submit" class="bg-gradient-to-r from-yellow-200 
+                    to-yellow-500 text-black font-bold py-3 px-6 rounded-md hover:from-yellow-300 
+                    hover:to-yellow-100 transition duration-300 w-full">Submit</button>
             </form>
         </div>
             <a href="../index.html" class="back-link">Back To Main</a>   
