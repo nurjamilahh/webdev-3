@@ -57,7 +57,7 @@ This demonstrates the successful application of Media Queries for optimal viewin
 ### 3. Key Layout Feature Showcase
 This highlights the specific use of **Flexbox** for arranging the portfolio cards/sections.
 
-![Screenshot focusing on the Flexbox-styled portfolio cards](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/flexbox-cards.png)
+![Screenshot focusing on the Flexbox-styled portfolio cards](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/flexbox-card.png)
 
 ---
 
