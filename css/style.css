@@ -270,14 +270,14 @@ body {
 .author-title { 
     font-size: 0.9rem;
     color: #777;
-    margin-top: 4px; /* Small space between name and title */
+    margin-top: 4px; 
     margin-bottom: 0;
 }
 .author-bio {
     font-size: 0.8rem;
     color: #666;
     line-height: 1.6;
-    margin: 0; /* Remove default margin that might disrupt the parent's gap */
+    margin: 0;
 }
 
 /* FOOTER */
@@ -364,8 +364,8 @@ body {
     z-index: 100;
 }
 
-/* 📱 MOBILE - FIRST (min-width: 640px) */
-@media (min-width: 640px) {
+/* 📱 MOBILE - FIRST (min-width: 768px) */
+@media (min-width: 768px) {
     .post-card {
         display: flex; 
         flex-direction: row; 
@@ -389,7 +389,7 @@ body {
         display: block;
     }
     .main-navigation.active-menu {
-        display: block; /* atau flex, sesuai layout desktop */
+        display: block;
         position: static;
         top: auto;
         width: auto;

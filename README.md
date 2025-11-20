@@ -47,7 +47,7 @@ The implementation of this module focuses heavily on robust structure and modern
 ### 1. Desktop View
 This screenshot shows the full layout on a standard desktop screen.
 
-![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/desktop-view.png)
+![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/desktop-view.png) 
 
 ### 2. Mobile View (Responsiveness Demo)
 This demonstrates the successful application of Media Queries for optimal viewing on smaller devices.
@@ -65,6 +65,7 @@ This highlights the specific use of **Flexbox** for arranging the portfolio card
 
 * **HTML5:** Used for the semantic and accessible structure of the content.
 * **CSS3:** Primary styling language, focusing on **Layout, Responsiveness,** and **Aesthetics**.
+* **Tailwind CSS:** A utility-first CSS framework built upon CSS principles for rapidly building custom user interfaces directly in your markup, emphasizing **speed** and **modern design**.
 * **JavaScript:** Used to implement the responsive navigation toggle (hamburger menu) for mobile viewing.
 
 ---
