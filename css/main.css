@@ -1,9 +1,9 @@
 /* 
  * File Name: style.css
  * Description: Module 2 (W3W4): CSS Implementation
- * Version: 1.0
+ * Version: 2.0
  * Author: Nur Jamilah
- * Creation Date: 2025-11-12
+ * Creation Date: 2025-11-24
 */
 
 /* BASIC STYLING */
@@ -31,6 +31,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    position:relative;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto; 
@@ -38,7 +39,7 @@ body {
 }
 .main-navigation a {
     text-decoration: none;
-    /* color: #666;  */
+    color: #666; 
     font-size: 1.2em;
     margin-left: 20px;
     font-weight: normal; 
@@ -195,7 +196,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
 }
 .categories-widget,
 .author-widget {
@@ -278,6 +279,12 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+.social-icons a {
+    color: #777;
+    font-size: 1.5rem;
+    margin-right: 12px;
+    transition: color 0.3s;
+}
 
 /* FOOTER */
 .site-footer {
@@ -316,7 +323,7 @@ body {
     display: block;
 }
 .quick-links a:hover {
-    color: #1DA1F2;
+    color: #1DA1F2;;
 }
 .follow-me ul {
     list-style: none;
@@ -330,7 +337,7 @@ body {
     display: block;
 }
 .follow-me a:hover {
-    color: #1DA1F2;;
+    color: #1DA1F2;
 }
 .footer-bottom {
     text-align: center;
@@ -383,9 +390,9 @@ body {
     }
 }
 
-/* 💻 MEDIA QUERIES FOR DESKTOP (min-width: 992px) */
+/* 💻 MEDIA QUERIES FOR DESKTOP (min-width: 1024px) */
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .hamburger-icon {
         display: none; 
     }
@@ -394,9 +401,9 @@ body {
     }
     .main-navigation.active-menu {
         display: block;
-        position: static;
-        top: auto;
-        width: auto;
+        position: absolute;
+        top: 50px;
+        width: 100%;
         background-color: transparent;
     }
     .header-container {
