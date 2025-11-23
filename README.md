@@ -1,4 +1,4 @@
-# 💻 Module 2 (W3W4): CSS Implementation 
+# 💻 Milestone 1: Responsive Web Pages 
 
 
 ## 🚀 Live Website Link
@@ -20,13 +20,14 @@
 
 This website was created as a major step in my career transition, specifically focusing on entering the world of **Software Engineering**. 
 
-Yes! This project serves as an assignment and is dedicated to the implementation of **Module 2: CSS** from the course I am currently undertaking.
+Yes! This project serves as an assignment and is dedicated to the implementation of **Project Milestone 1: Responsive Web Pages** from the course I am currently undertaking.
 
 ### What you will find here:
 
-* **My Previous Work:** Showcasing my past expertise as an Asset Manager and Property Valuer/Appraiser.
-* **My Software Engineering Journey:** Updates, notes, and insights into my learning process and new skills.
-* **Other Notes:** A collection of various professional notes.
+* **About:** Detailed profile, background, and professional experience.
+* **Blog:** A space dedicated to sharing articles, technical tutorials, and recent insights/updates.
+* **Projects:** A gallery showcasing completed projects.
+* **Contact:** An easy-to-use form and direct contact information to facilitate communication.
 
 ---
 
@@ -42,22 +43,22 @@ The implementation of this module focuses heavily on robust structure and modern
 
 ---
 
-## 🖼️ Demo & Screenshots of CSS Implementation 
+## 🖼️ Demo & Screenshots of Responsive Web Pages 
 
-### 1. Desktop View
-This screenshot shows the full layout on a standard desktop screen.
-
-![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/desktop-view.png) 
-
-### 2. Mobile View (Responsiveness Demo)
-This demonstrates the successful application of Media Queries for optimal viewing on smaller devices.
+### 1. Mobile View ($< 768\text{px}$)
+The layout is a single, vertical column for fast scrolling and maximum readability. Navigation is condensed into a **Hamburger Icon**.
 
 ![Screenshot of the project on a mobile phone](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/mobile-view.png)
 
-### 3. Key Layout Feature Showcase
-This highlights the specific use of **Flexbox** for arranging the portfolio cards/sections.
+### 2. Tablet View ($\ge 768\text{px}$)
+The design expands to utilize the wider screen.
 
-![Screenshot focusing on the Flexbox-styled portfolio cards](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/flexbox-card.png)
+![Screenshot of the project on a tablet screen](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/tablet-view.png) 
+
+### 3. Desktop View ($\ge 992\text{px}$)
+This screenshot shows the full layout on a standard desktop screen.
+
+![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/desktop-view.png)
 
 ---
 
@@ -67,6 +68,7 @@ This highlights the specific use of **Flexbox** for arranging the portfolio card
 * **CSS3:** Primary styling language, focusing on **Layout, Responsiveness,** and **Aesthetics**.
 * **Tailwind CSS:** A utility-first CSS framework built upon CSS principles for rapidly building custom user interfaces directly in your markup, emphasizing **speed** and **modern design**.
 * **JavaScript:** Used to implement the responsive navigation toggle (hamburger menu) for mobile viewing.
+* **Deployment:** GitHub Pages.
 
 ---
 
@@ -90,7 +92,7 @@ Since this is a static front-end portfolio site, it can be viewed directly after
 
 If you'd like to chat, network, or discuss my journey, please feel free to reach out!
 
-* **Contact Form:** Drop your message directly via the contact form on the website (Click **"Contact Me"**).
+* **Contact Form:** Drop your message directly via the contact form on the website (Click **"Contact"**).
 * **LinkedIn:** [https://www.linkedin.com/in/nurjamilah-h/](https://www.linkedin.com/in/nurjamilah-h/)
 * **Email:** worknurjam@gmail.com
 
