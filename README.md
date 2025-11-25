@@ -47,8 +47,6 @@ This **Project Milestone 1: Responsive Web Pages** uses a standard file organiza
 │   │   ├── nur-profile-large.webp 
 │   │   └── ...other project images
 │   └── /fonts/
-│       ├── CustomFont-Regular.woff2
-│       └── CustomFont-Bold.woff2
 └── /css/
     ├── header-nav.css
     ├── main.css           <-- Core layout and component styles
