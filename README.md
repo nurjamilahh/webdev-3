@@ -8,15 +8,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
 ## 📝 Table of Contents
-1.  [Introduction](#introduction)
-2.  [Features Implemented](#features-implemented)
-3.  [Technology Stack](#technology-stack)
-4.  [Installation](#installation)
-5.  [Contact](#contact)
+[Introduction](#introduction)
+[Features Implemented](#features-implemented)
+[Demo & Screenshots of Responsive Web Pages](#demo-screenshots)
+[Technology Stack](#technology-stack)
+[Getting Started](#getting-started)
+[Contact](#contact)
 
 ---
 
-## 1. Introduction
+## Introduction
 
 This website was created as a major step in my career transition, specifically focusing on entering the world of **Software Engineering**. 
 
@@ -31,7 +32,7 @@ Yes! This project serves as an assignment and is dedicated to the implementation
 
 ---
 
-## 2. Features Implemented
+## Features Implemented
 
 The implementation of this module focuses heavily on robust structure and modern styling principles:
 
@@ -62,7 +63,7 @@ This screenshot shows the full layout on a standard desktop screen.
 
 ---
 
-## 3. Technology Stack
+## Technology Stack
 
 * **HTML5:** Used for the semantic and accessible structure of the content.
 * **CSS3:** Primary styling language, focusing on **Layout, Responsiveness,** and **Aesthetics**.
@@ -72,7 +73,7 @@ This screenshot shows the full layout on a standard desktop screen.
 
 ---
 
-## 4. Installation
+## Getting Started
 
 Since this is a static front-end portfolio site, it can be viewed directly after cloning the repository.
 
@@ -88,7 +89,7 @@ Since this is a static front-end portfolio site, it can be viewed directly after
 
 ---
 
-## 5. Contact
+## Contact
 
 If you'd like to chat, network, or discuss my journey, please feel free to reach out!
 
