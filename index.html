@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <header class="site-header bg-gradient-to-r from-yellow-200 to-yellow-500 md:p-2">
+    <header class="site-header bg-gradient-to-r from-yellow-200 to-yellow-900 md:p-2">
         <div class="header-container">
             
             <h1 class="font-bold text-2xl">Nur Jamilah</h1> 
@@ -33,7 +33,7 @@
             </div>
 
             <nav class="main-navigation" id="nav-menu">
-                <a href="index.html#about-the-author">About</a>
+                <a href="pages/about.html">About</a>
                 <a href="index.html">Blog</a>
                 <a href="#">Projects</a>
                 <a href="pages/contact.html">Contact</a>
@@ -51,37 +51,69 @@
     </div>
 
     <main class="container main-content">
+
+        <div class="intro-wrapper">
+
+        <section class="hero-intro">
+
+            <div class="w-full md:w-1/2 photo-column">
+                <img 
+                    src="assets/NurJH-pro-foto-more.jpg" 
+                    alt="A professional headshot of Nur Jamilah."
+                    class="rounded-lg shadow-xl w-full h-auto object-cover"
+                >
+            </div>
+            
+            <div class="text-column">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-normal content-serif leading-tight mb-8">Hi! I'm Nur, a virtual assistant</h1>
+
+                <p class="text-lg md:text-xl content-serif leading-relaxed">
+                    After a rewarding start in Asset Management, I'm now immersing myself in the world of full-stack software engineering. 
+                    <a href="#" class="underline hover:text-red-700 transition duration-150">Read a bit more about me.</a>
+                </p>
+            </div>
+        </section>
+
+        <div class="bottom-bar">
+         <p>Looking for a portfolio? The code for this website is open source. <a href="https://github.com/nurjamilahh" target="_blank">View on Github</a></p>
+        </div>
+
         <section class="latest-posts">
-            <h2>Latest Posts</h2>            
-            <article class="post-card">
-                <img src="assets/CSS-screenshot.jpg" alt="first line image" class="post-image">
+            <h2>Latest Posts</h2>  
+            
+            <div class="post-wrapper">
 
-                <div class="post-details">
-                    <h3>CSS Module: Exercises</h3>
-                    <p>As a new software engineering student, after covering HTML and Git, we moved on to CSS to style the web pages we built. CSS definitely increases the complexity of file creation, but also brings excitement in anticipating the final look. OK! We create first <b>index.html</b> then create <b>style.css</b> &#128516;.</p>
-                    <a href="#" class="read-more-link">Read more &rarr;</a>
-                </div>
-            </article>
-                    
-            <article class="post-card">
-                <img src="assets/Boat-RiverCruise-WayKambas.jpg" alt="WayKambas-Boat" class="post-image">
-                <div class="post-details">
-                    <h3>River Cruise Boat Valuation in Way Kambas</h3>
-                    <p>This picture takes me back to when we appraised river boats at Way Kambas National Park, Central Lampung. Getting to this location involved driving through a pristine and beautiful tropical rainforest; we saw wildlife crossing both in the trees and right on the road. We asked to the staffs, "Who would rent this boat? Is the proposed rent reasonable?....
-                    </p>
-                    <a href="#" class="read-more-link">Read more &rarr;</a>
-                </div>
-            </article>
+                <article class="post-card">
+                    <img src="assets/CSS-screenshot.jpg" alt="CSS Exercises Screenshot" class="post-image">
 
-            <article class="featured-article">
-                <img src="assets/BandarLampung-CityView.jpg" alt="BandarLampung" class="featured-image-top">
-                <div class="featured-article-content">
-                    <h2>City View</h2>
-                    <p>How can I reduce the mental activity in my head that sometimes causes headaches?</p>
-                    <p>One method I use is to gaze at the city view, which also helps relax my eyes that are often staring at the computer screen on my desk. Sometimes I do this unconsciously when I am about to leave one city and move to the next city for my following assignment. "Alles gedaan..."</p>
-                    <a href="#" class="read-full">Read full article &rarr;</a>
-                </div>
-            </article>           
+                    <div class="post-details">
+                        <h3>CSS Module: Exercises</h3>
+                        <p>As a new software engineering student, after covering HTML and Git, we moved on to CSS to style the web pages we built. CSS definitely increases the complexity of file creation, but also brings excitement in anticipating the final look. OK! We create first <b>index.html</b> then create <b>style.css</b> &#128516;.</p>
+                        <a href="#" class="read-more-link">Read more &rarr;</a>
+                    </div>
+                </article>
+                        
+                <article class="post-card">
+                    <img src="assets/Boat-RiverCruise-WayKambas.jpg" alt="WayKambas-Boat" class="post-image">
+                    <div class="post-details">
+                        <h3>River Cruise Boat Valuation in Way Kambas</h3>
+                        <p>This picture takes me back to when we appraised river boats at Way Kambas National Park, Central Lampung. Getting to this location involved driving through a pristine and beautiful tropical rainforest; we saw wildlife crossing both in the trees and right on the road. We asked to the staffs, "Who would rent this boat? Is the proposed rent reasonable?....
+                        </p>
+                        <a href="#" class="read-more-link">Read more &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="featured-article">
+                    <img src="assets/BandarLampung-CityView.jpg" alt="BandarLampung" class="featured-image-top">
+                    <div class="featured-article-content">
+                        <h2>City View</h2>
+                        <p>How can I reduce the mental activity in my head that sometimes causes headaches?</p>
+                        <p>One method I use is to gaze at the city view, which also helps relax my eyes that are often staring at the computer screen on my desk. Sometimes I do this unconsciously when I am about to leave one city and move to the next city for my following assignment. "Alles gedaan..."</p>
+                        <a href="#" class="read-full">Read full article &rarr;</a>
+                    </div>
+                </article>   
+                
+            </div>
         </section>
 
 
@@ -131,10 +163,10 @@
              <div class="footer-col quick-links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.html#about-the-author">About</a></li>
+                    <li><a href="pages/about.html">About</a></li>
                     <li><a href="index.html">Blog</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </div>
 
