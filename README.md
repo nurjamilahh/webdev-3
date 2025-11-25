@@ -9,6 +9,7 @@
 
 ## 📝 Table of Contents
 [Introduction](#introduction)
+[Project Structure](#project-structure)
 [Features Implemented](#features-implemented)
 [Demo & Screenshots of Responsive Web Pages](#demo-screenshots)
 [Technology Stack](#technology-stack)
@@ -29,6 +30,29 @@ Yes! This project serves as an assignment and is dedicated to the implementation
 * **Blog:** A space dedicated to sharing articles, technical tutorials, and recent insights/updates.
 * **Projects:** A gallery showcasing completed projects.
 * **Contact:** An easy-to-use form and direct contact information to facilitate communication.
+
+---
+
+## Project Structure
+
+This **Project Milestone 1: Responsive Web Pages** uses a standard file organization for web applications:
+
+```text
+/milestone-1-nurjamilahh/
+├── index.html           <-- Main landing page
+├── about.html
+├── contact.html
+├── /assets/
+│   ├── /images/
+│   │   ├── nur-profile-large.webp 
+│   │   └── ...other project images
+│   └── /fonts/
+│       ├── CustomFont-Regular.woff2
+│       └── CustomFont-Bold.woff2
+└── /css/
+    ├── header-nav.css
+    ├── main.css           <-- Core layout and component styles
+    └── footer.css
 
 ---
 
