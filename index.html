@@ -10,167 +10,151 @@
     <title>Milestone 1: Responsive Web Pages</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
    
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header-nav.css"> 
+    <link rel="stylesheet" href="css/footer.css">
     
-
 </head>
 <body>
 
-    <header class="site-header bg-gradient-to-r from-yellow-200 to-yellow-900 md:p-2">
-        <div class="header-container">
-            
-            <h1 class="font-bold text-2xl">Nur Jamilah</h1> 
-                        
-            <div class="hamburger-icon" id="hamburger-btn"> 
-            <i class="fa-solid fa-bars"></i>
-            </div>
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="nav-logo">Nur Jamilah</a>
 
-            <nav class="main-navigation" id="nav-menu">
-                <a href="pages/about.html">About</a>
-                <a href="index.html">Blog</a>
-                <a href="#">Projects</a>
-                <a href="pages/contact.html">Contact</a>
-            </nav>
-        </div>
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">
+            <span class="hamburger-icon"></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="#Blog Latest Posts">Blog</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <div class="search-bar">
-        <div class="container">
-            
-            <input type="text" placeholder="Search...">
-            <button aria-label="search"><i class="fa fa-search"></i></button>
 
-        </div>  
-    </div>
-
-    <main class="container main-content">
-
-        <div class="intro-wrapper">
-
-        <section class="hero-intro">
-
-            <div class="w-full md:w-1/2 photo-column">
-                <img 
-                    src="assets/NurJH-pro-foto-more.jpg" 
-                    alt="A professional headshot of Nur Jamilah."
-                    class="rounded-lg shadow-xl w-full h-auto object-cover"
-                >
+    <main>
+        <section class="hero-section">
+            <div class="hero-image-container">
+                <picture>
+                    <source srcset="assets/images/nur-profile-large.webp" media="(min-width: 1024px)">
+                    <source srcset="assets/images/nur-profile-medium.webp" media="(min-width: 600px)">
+                    <img src="assets/images/nur-profile-small.webp" alt="Nur Profile Photo" loading="lazy">
+                </picture>
             </div>
-            
-            <div class="text-column">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-normal content-serif leading-tight mb-8">Hi! I'm Nur, a virtual assistant</h1>
-
-                <p class="text-lg md:text-xl content-serif leading-relaxed">
-                    After a rewarding start in Asset Management, I'm now immersing myself in the world of full-stack software engineering. 
-                    <a href="#" class="underline hover:text-red-700 transition duration-150">Read a bit more about me.</a>
+            <div class="hero-content">
+                <h1 class="heading-xl">I'm Nur, a software engineer</h1>
+                <p class="intro-text">After a rewarding start in Asset Management, I'm now immersing myself in the world of Full-stack Software Engineering.
+                <a href="pages/about.html" class="cta-link">Read a bit more about me.</a>
                 </p>
-            </div>
-        </section>
 
-        <div class="bottom-bar">
-         <p>Looking for a portfolio? The code for this website is open source. <a href="https://github.com/nurjamilahh" target="_blank">View on Github</a></p>
-        </div>
-
-        <section class="latest-posts">
-            <h2>Latest Posts</h2>  
-            
-            <div class="post-wrapper">
-
-                <article class="post-card">
-                    <img src="assets/CSS-screenshot.jpg" alt="CSS Exercises Screenshot" class="post-image">
-
-                    <div class="post-details">
-                        <h3>CSS Module: Exercises</h3>
-                        <p>As a new software engineering student, after covering HTML and Git, we moved on to CSS to style the web pages we built. CSS definitely increases the complexity of file creation, but also brings excitement in anticipating the final look. OK! We create first <b>index.html</b> then create <b>style.css</b> &#128516;.</p>
-                        <a href="#" class="read-more-link">Read more &rarr;</a>
-                    </div>
-                </article>
-                        
-                <article class="post-card">
-                    <img src="assets/Boat-RiverCruise-WayKambas.jpg" alt="WayKambas-Boat" class="post-image">
-                    <div class="post-details">
-                        <h3>River Cruise Boat Valuation in Way Kambas</h3>
-                        <p>This picture takes me back to when we appraised river boats at Way Kambas National Park, Central Lampung. Getting to this location involved driving through a pristine and beautiful tropical rainforest; we saw wildlife crossing both in the trees and right on the road. We asked to the staffs, "Who would rent this boat? Is the proposed rent reasonable?....
-                        </p>
-                        <a href="#" class="read-more-link">Read more &rarr;</a>
-                    </div>
-                </article>
-
-                <article class="featured-article">
-                    <img src="assets/BandarLampung-CityView.jpg" alt="BandarLampung" class="featured-image-top">
-                    <div class="featured-article-content">
-                        <h2>City View</h2>
-                        <p>How can I reduce the mental activity in my head that sometimes causes headaches?</p>
-                        <p>One method I use is to gaze at the city view, which also helps relax my eyes that are often staring at the computer screen on my desk. Sometimes I do this unconsciously when I am about to leave one city and move to the next city for my following assignment. "Alles gedaan..."</p>
-                        <a href="#" class="read-full">Read full article &rarr;</a>
-                    </div>
-                </article>   
-                
-            </div>
-        </section>
-
-
-        <aside class="sidebar">
-
-            <div class="categories-widget">
-                <h3>Categories</h3>
-                <ul>
-                    <li><a href="#"><i class="fas fa-desktop"></i>Software Engineering Journey</a></li>
-                    <li><a href="#"><i class="fas fa-briefcase"></i>Asset Management</a></li>
-                    <li><a href="#"><i class="fas fa-pencil-alt"></i>Other Notes</a></li>
-                </ul>
-            </div>
-
-            <div class="author-widget" id="about-the-author">             
-                <h3>About the Author</h3>
-                <div class="author-info">
-                    <img src="assets/NurJH-pro-foto.jpg" alt="me as author" class="author-image">
-                    <div class="author-details">
-                        <h4>Nur Jamilah</h4>
-                        <p class="author-title">Software Engineer & Asset Manager</p>
-                    </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nurjamilah-h/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nurjamilahh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:worknurjam@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
-                
-                    <p class="author-bio">Hi! I'm Nur. I'm now immersing myself in the world of full-stack software engineering after a rewarding start in Asset Management and Property Valuation/Appraisal.</p>
-
-                    <p class="author-bio"> I approach coding with the same focus on value creation and structured thinking that I honed in my previous career. I believe the best code is clean, well-tested, and solves real-world problems.</p>
-
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/nurjamilah-h/" aria-label="LinkedIn"><i class="fab fa-linkedin-in text-blue-700 hover:text-blue-500"></i></a>
-                        <a href="https://github.com/nurjamilahh" aria-label="GitHub"><i class="fab fa-github text-gray-900 hover:text-gray-600"></i></a>
-                        <a href="mailto:worknurjam@gmail.com" aria-label="Email"><i class="fas fa-envelope text-yellow-700 hover:text-yellow-500"></i></a>
-                    </div>
-
-
             </div>
-        </aside>
+        </section>
+
+        <section class="latest-posts-section" id="Blog Latest Posts">
+            <h2 class="section-title">Latest Posts</h2>
+            <ul class="post-list">
+                <li class="post-item">
+                    <a href="#" class="post-link">River Cruise Boat Valuation in Way Kambas</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">CSS Module: Exercises</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">City View</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li class="post-item">
+                    <a href="#" class="post-link">Lorem ipsum dolor sit amet.</a>
+                </li>
+            </ul>
+
+            <div class="all-posts-container">
+                <a href="#" class="see-all-link">SEE ALL POSTS</a>
+            </div>
+        </section>
+
+        <section class="featured-projects" id="Projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/responsive-web-pages.webp" alt="Responsive Web Pages" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive Web Pages</h3>
+                        <p class="project-description">Creating a personal website. focuses on essential aspects of web development, including HTML for structure and CSS for styling. </p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/CSS-implementation.webp" alt="CSS Implementation" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>CSS Implementation</h3>
+                        <p class="project-description">Applying CSS to enhance the visual appearance and user experience.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image-wrapper grey-background">
+                        <img src="assets/images/web-dev-essentials.webp" alt="Web Development Essentials" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Development Essentials</h3>
+                        <p class="project-description">Creating a personal website to establish an online presence that not only shares my personal story but also demonstrates my technical capabilities.</p>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
     </main>
 
+    
     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-col website-info">
+        <div class="footer-grid">
+            <div class="footer-column website-update">
                 <h3>My Website</h3>
-                <p>Exploring the latest updates on my website</p>
+                <p>Exploring the latest update on my website</p>
             </div>
-
-             <div class="footer-col quick-links">
+            
+            <div class="footer-column quick-links">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="pages/about.html">About</a></li>
-                    <li><a href="index.html">Blog</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#Blog Latest Post">Blog</a></li>
+                    <li><a href="#Projects">Projects</a></li>
                     <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="footer-col follow-me">
+            <div class="footer-column contact-links">
                 <h3>Contact Links</h3>
                 <ul>
                     <li><a href="https://www.linkedin.com/in/nurjamilah-h/" aria-label="LinkedIn">LinkedIn</i></a></li>
@@ -179,18 +163,28 @@
                 </ul>
             </div>
         </div>
-        <p class="copyright">© 2025 Nur Jamilah</p>
+        <div class="copyright">© 2025 Nur Jamilah</div>
     </footer>
 
     <script>
-        const hamburgerBtn = document.getElementById('hamburger-btn');
-        const navMenu = document.getElementById('nav-menu');
-        const activeClass = 'active-menu'; 
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
         
-        hamburgerBtn.addEventListener('click', function() {
-            navMenu.classList.toggle(activeClass);
-        });
+        // Toggle the 'open' class on the menu list
+        navLinks.classList.toggle('open');
+        
+        // Update ARIA attributes for accessibility
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        
+        // Optional: Lock scroll when menu is open
+        document.body.classList.toggle('no-scroll', !isExpanded);
+    });
     </script>
-    
+
+
 </body>
 </html>
+

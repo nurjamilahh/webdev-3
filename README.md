@@ -11,7 +11,6 @@
 [Introduction](#introduction)
 [Project Structure](#project-structure)
 [Features Implemented](#features-implemented)
-[Demo & Screenshots of Responsive Web Pages](#demo-screenshots)
 [Technology Stack](#technology-stack)
 [Getting Started](#getting-started)
 [Contact](#contact)

@@ -1,0 +1,77 @@
+/* 
+ * File Name: footer.css
+ * Description:  Milestone 1: Responsive Web Pages 
+ * Version: 1.0
+ * Author: Nur Jamilah
+ * Creation Date: 2025-11-25
+*/
+
+.site-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 3rem 5vw 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #444;
+}
+
+.footer-column h3 {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    padding: 4px 0;
+    font-size: 0.9rem;
+}
+.website-update p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+.quick-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2;
+    display: block;
+}
+.quick-links a:hover {
+    color: #1DA1F2;;
+}
+.contact-links ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2;
+    display: block;
+}
+.contact-links a:hover {
+    color: #1DA1F2;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #888;
+}
