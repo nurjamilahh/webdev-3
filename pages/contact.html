@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Nur - Get in Touch</title>
-    <link rel="stylesheet" href="css/header-nav.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <meta name="author" content="Nur Jamilah Harahap">
+    <meta name="description" content="Responsive Web Pages">
+
+    <title>Contact Nur Jamilah</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header-nav.css"> 
+    <link rel="stylesheet" href="../css/footer.css">
+
 </head>
 <body>
     <header class="site-header">
         <nav class="main-nav">
-            </nav>
+            <a href="../index.html" class="nav-logo">Nur Jamilah</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">
+            <span class="hamburger-icon"></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="../index.html#Blog Latest Posts">Blog</a></li>
+                <li><a href="../index.html#Projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -37,23 +61,37 @@
                     <button type="submit" class="cta-button">Send Message</button>
                 </form>
 
-                <div class="contact-info">
-                    <h2>Other Ways to Connect</h2>
-                    <p>I am active on the following platforms and typically respond within 24 hours.</p>
-                    <ul>
-                        <li><a href="#" target="_blank">LinkedIn: /in/nur_dev</a></li>
-                        <li><a href="#" target="_blank">GitHub: /nur-codes</a></li>
-                        <li><a href="mailto:contact@nur.dev">Email: contact@nur.dev</a></li>
-                    </ul>
-                </div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
+     <footer class="site-footer">
         <div class="footer-grid">
+            <div class="footer-column website-update">
+                <h3>My Website</h3>
+                <p>Exploring the latest update on my website</p>
             </div>
-        <div class="copyright">© 2025 Nur</div>
+            
+            <div class="footer-column quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="../index.html#Blog Latest Posts">Blog</a></li>
+                    <li><a href="../index.html#Projects">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column contact-links">
+                <h3>Contact Links</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/nurjamilah-h/" aria-label="LinkedIn">LinkedIn</i></a></li>
+                    <li><a href="https://github.com/nurjamilahh" aria-label="GitHub">GitHub</i></a></li>
+                    <li><a href="mailto:worknurjam@gmail.com" aria-label="Email">Email</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">© 2025 Nur Jamilah</div>
     </footer>
 </body>
 </html>

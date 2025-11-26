@@ -5,25 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nur Jamilah Harahap">
     <meta name="description" content="Responsive Web Pages">
-    
+
     <title>About Nur Jamilah</title>
-    
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-   
+
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/header-nav.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header-nav.css"> 
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
     <header class="site-header">
         <nav class="main-nav">
-            <a href="index.html" class="nav-logo">Nur Jamilah</a>
-            </nav>
+            <a href="../index.html" class="nav-logo">Nur Jamilah</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">
+            <span class="hamburger-icon"></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="../index.html#Blog Latest Posts">Blog</a></li>
+                <li><a href="../index.html#Projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -45,10 +58,10 @@
                 <aside class="key-skills">
                     <h3>Key Proficiencies</h3>
                     <ul class="skills-list">
-                        <li>**Backend:** Python, Django, REST Framework</li>
-                        <li>**Frontend:** React, JavaScript ES6+, HTML5, Advanced Grid/Flexbox CSS</li>
-                        <li>**Database:** PostgreSQL, SQLite</li>
-                        <li>**Cloud/DevOps:** Docker, AWS (S3, EC2 basic)</li>
+                        <li>**Backend:** Lorem ipsum dolor sit amet.</li>
+                        <li>**Frontend:** Lorem ipsum dolor sit amet.</li>
+                        <li>**Database:** Lorem ipsum dolor sit amet.</li>
+                        <li>**Cloud/DevOps:** Lorem ipsum dolor sit amet.</li>
                     </ul>
                 </aside>
             </div>
@@ -58,12 +71,12 @@
             <h2>Career Milestones</h2>
             <div class="timeline-items">
                 <div class="milestone">
-                    <span class="year">2020</span>
+                    <span class="year">2025</span>
                     <p>Completed intensive Full-Stack Software Engineering Bootcamp.</p>
                 </div>
                 <div class="milestone">
-                    <span class="year">2018</span>
-                    <p>Led Financial Modeling Team at Global Asset Firm.</p>
+                    <span class="year">2020</span>
+                    <p>Lorem ipsum dolor sit amet.</p>
                 </div>
                 </div>
         </section>
@@ -79,10 +92,10 @@
             <div class="footer-column quick-links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="pages/about.html">About</a></li>
-                    <li><a href="#Blog Latest Post">Blog</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="../index.html#Blog Latest Posts">Blog</a></li>
+                    <li><a href="../index.html#Projects">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 

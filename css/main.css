@@ -115,11 +115,20 @@ h1, h2, h3, strong {
     padding: var(--spacing-lg) var(--spacing-md);
 }
 
+.featured-projects h2 {
+    /* Sesuaikan properti ini agar sama dengan .section-title */
+    font-family: var(--font-heading); /* Gunakan font yang sama */
+    font-size: 2.5rem; /* Sesuaikan ukuran font */
+    /* font-weight: 700; Sesuaikan ketebalan font */
+    text-align: center; /* Jika 'Latest Posts' center, ini juga center */
+    margin-bottom: var(--spacing-lg); /* Berikan margin di bawah judul */
+}
+
 .projects-grid {
     display: grid;
     /* Desktop: 3 kolom sama rata, Grid Dasar */
     grid-template-columns: repeat(3, 1fr); 
-    gap: 25px; /* Jarak antar kartu */
+    gap: 20px; /* Jarak antar kartu */
     margin-top: var(--spacing-lg);
 }
 
@@ -143,7 +152,7 @@ h1, h2, h3, strong {
 
 .latest-posts-section {
     max-width: 900px;
-    margin: 50px auto;
+    margin: 48px auto;
     padding: 20px;
     display: flex; /* For the two-column layout */
 }
