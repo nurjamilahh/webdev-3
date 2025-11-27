@@ -34,7 +34,9 @@ Yes! This project serves as an assignment and is dedicated to the implementation
 
 ## Project Structure
 
-This **Project Milestone 1: Responsive Web Pages** uses a standard file organization for web applications:
+This section is included primarily as a memory aid for me to internalize common project organization conventions in software engineering, as I am a career switcher.
+
+This project uses a standard, logical file organization commonly found in web applications:
 
 ```text
 /milestone-1-nurjamilahh/
@@ -50,7 +52,7 @@ This **Project Milestone 1: Responsive Web Pages** uses a standard file organiza
     ├── header-nav.css
     ├── main.css           <-- Core layout and component styles
     └── footer.css
-
+```
 ---
 
 ## Features Implemented
