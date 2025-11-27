@@ -36,28 +36,6 @@ h1, h2, h3, strong {
     font-weight: 700; 
 }
 
-.heading-xl {
-    font-size: 2.8rem;
-    line-height: 1.1;
-}
-
-.intro-text {
-    font-size: 1.25rem; 
-    line-height: 1.5; 
-    margin-top: 24px; 
-}
-
-.cta-link {
-    font-size: 1.1rem; 
-    display: block; 
-    text-decoration: underline; 
-    transition: color 0.2s ease;
-}
-
-.cta-link:hover {
-    font-weight: 700; 
-}
-
 /* --- ASYMMETRICAL LAYOUT (using Grid) --- */
 
 .hero-section {
@@ -81,6 +59,28 @@ h1, h2, h3, strong {
     height: auto;
     object-fit: cover;
     border-radius: 8px; /* Assuming the image in the design has a soft background/container */
+}
+
+.heading-xl {
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+
+.intro-text {
+    font-size: 1.25rem; 
+    line-height: 1.5; 
+    margin-top: 24px; 
+}
+
+.cta-link {
+    font-size: 1.1rem; 
+    display: block; 
+    text-decoration: underline; 
+    transition: color 0.2s ease;
+}
+
+.cta-link:hover {
+    font-weight: 700; 
 }
 
 .hero-content {
@@ -168,8 +168,10 @@ h1, h2, h3, strong {
 .post-list {
     list-style: none;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 48px;
     flex: 1; 
+    position: relative;
+    z-index: 1;
 }
 
 .post-item {
@@ -190,21 +192,17 @@ h1, h2, h3, strong {
     font-family: sans-serif; 
     transition: color 0.2s;
 }
-
 .post-link:hover {
     color: #007bff;
 }
 
 .all-posts-container {
-    /* Used to position the "SEE ALL POSTS" link */
     width: 100%;
     margin-top: 20px;
     text-align: right;
-    /* You would typically position this outside the main flex container,
-       or adjust the CSS to have the link aligned with the right column. */
     position: relative;
     right: 0;
-    margin-left: -100%; /* A trick to align it under the right column in this specific layout */
+    margin-left: -100%; /* To align it under the right column in this specific layout */
 }
 
 .see-all-link {
@@ -214,41 +212,8 @@ h1, h2, h3, strong {
     letter-spacing: 0.1em;
 }
 
-.page-hero {
-    padding: 4rem var(--spacing-md);
-    text-align: center;
-}
-
-.bio-detail {
-    padding: var(--spacing-lg) var(--spacing-md);
-}
-
-.bio-content-grid {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 3rem;
-}
-
-/* Desktop layout for biography */
-@media (min-width: 900px) {
-    .bio-content-grid {
-        grid-template-columns: 2fr 1fr; 
-    }
-}
-
-.key-skills {
-    padding: 20px;
-    background-color: var(--color-light-bg);
-    border-radius: 8px;
-}
-
-.skills-list {
-    list-style: disc;
-    margin-left: 20px;
-}
 
 /* PROJECT CARD STYLING */
-
 
 .project-card {
     background-color: var(--color-light-bg);

@@ -1,0 +1,100 @@
+/* 
+ * File Name: about.css
+ * Description:  Milestone 1: Responsive Web Pages 
+ * Version: 1.0
+ * Author: Nur Jamilah
+ * Creation Date: 2025-11-27
+*/
+
+/* STYLING FOR ABOUT.HTML  */
+
+.page-hero {
+    padding: 4rem var(--spacing-md);
+    text-align: center;
+}
+
+/* heading-xl & intro-text from main.css */
+
+
+/* BIO SECTION */
+
+.bio-detail {
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+.bio-content-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 3rem;
+}
+/* Desktop layout for biography */
+@media (min-width: 900px) {
+    .bio-content-grid {
+        grid-template-columns: 2fr 1fr; 
+    }
+}
+
+.bio-story h2 {
+    /* Meningkatkan jarak bawah judul agar terpisah dari paragraf */
+    margin-bottom: 0.5rem; 
+    font-size: 1.8rem; /* Sesuaikan ukuran font */
+}
+.bio-story p {
+    /* Meningkatkan jarak baris (line height) untuk keterbacaan */
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+.key-skills {
+    padding: 20px;
+    background-color: var(--color-light-bg);
+    border-radius: 8px;
+}
+.skills-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+/* TIMELINE SECTION */
+
+.timeline h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.timeline-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    position: relative;
+}
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    left: 12px; 
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: #555;
+}
+.milestone {
+    padding: 20px 0;
+    position: relative;
+    margin-left: 20px;
+}
+.milestone::before {
+    content: '';
+    position: absolute;
+    left: -20px; 
+    top: 24px; 
+    width: 8px; 
+    height: 8px;
+    border-radius: 50%;
+    background-color: #a00063; 
+    border: 2px solid #fff; 
+    z-index: 1;
+}
+.milestone .year {
+    display: block;
+    font-weight: bold;
+    color: #a00063; 
+    margin-bottom: 4px;
+}

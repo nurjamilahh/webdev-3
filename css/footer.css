@@ -6,31 +6,26 @@
  * Creation Date: 2025-11-25
 */
 
+/* GENERAL STYLING FOR FOOTER */
+
 .site-footer {
     background-color: #222;
     color: #ccc;
     padding: 3rem 5vw 1rem;
 }
-
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    justify-content: space-between;
+    gap: 28px;
     padding-bottom: 2rem;
     border-bottom: 1px solid #444;
 }
-
-.footer-column h3 {
-    font-size: 1.1rem;
-    color: white;
-    margin-bottom: 1rem;
-}
-
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
-
 .footer-column a {
     text-decoration: none;
     color: #ccc;
@@ -38,10 +33,21 @@
     padding: 4px 0;
     font-size: 0.9rem;
 }
+
+/* STYLE FOR MY WEBSITE PART */
+
+.footer-column h3 {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
 .website-update p {
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+/* STYLE FOR QUICK LINKS TO ID=navLinks */
+
 .quick-links ul {
     list-style: none;
     padding: 0;
@@ -55,6 +61,9 @@
 .quick-links a:hover {
     color: #1DA1F2;;
 }
+
+/* STYLE FOR CONTACT LINKS: LINKEDIN, GITHUB, EMAIL */
+
 .contact-links ul {
     list-style: none;
     padding: 0;
@@ -68,6 +77,8 @@
 .contact-links a:hover {
     color: #1DA1F2;
 }
+
+/* THE LAST LINE */
 
 .copyright {
     text-align: center;
