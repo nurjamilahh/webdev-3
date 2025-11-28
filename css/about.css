@@ -34,19 +34,18 @@
 }
 
 .bio-story h2 {
-    /* Meningkatkan jarak bawah judul agar terpisah dari paragraf */
     margin-bottom: 0.5rem; 
-    font-size: 1.8rem; /* Sesuaikan ukuran font */
+    font-size: 1.8rem;
 }
 .bio-story p {
-    /* Meningkatkan jarak baris (line height) untuk keterbacaan */
     line-height: 1.6;
     margin-bottom: 2rem;
 }
-.key-skills {
+.key-proficiencies {
     padding: 20px;
     background-color: var(--color-light-bg);
     border-radius: 8px;
+    margin-bottom: 1rem;
 }
 .skills-list {
     list-style: disc;
@@ -56,17 +55,18 @@
 
 /* TIMELINE SECTION */
 
-.timeline h2 {
+.career h2 {
+    margin-bottom: 0.5rem; 
+    font-size: 1.8rem;
     text-align: center;
-    margin-bottom: 40px;
 }
-.timeline-items {
+.career-items {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     position: relative;
 }
-.timeline-items::before {
+.career-items::before {
     content: '';
     position: absolute;
     left: 12px; 
