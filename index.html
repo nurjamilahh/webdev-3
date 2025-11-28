@@ -51,7 +51,7 @@
                 </picture>
             </div>
             <div class="hero-content">
-                <h1 class="heading-xl">I'm Nur, a virtual assistant</h1>
+                <h1 class="heading-xl">I'm Nur, a software engineer</h1>
                 <p class="intro-text">After a rewarding start in Asset Management, I'm now immersing myself in the world of Full-stack Software Engineering.
                 <a href="pages/about.html" class="cta-link">Read a bit more about me.</a></p>
                 
@@ -133,8 +133,6 @@
                 <a href="#" class="see-all-link">SEE ALL POSTS</a>
             </div>
         </section>
-
-
     </main>
 
     
@@ -173,13 +171,8 @@
 
     menuToggle.addEventListener('click', () => {
         const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
-        
-        // Toggle the 'open' class on the menu list
         navLinks.classList.toggle('open');
-        
-        // Update ARIA attributes for accessibility
         menuToggle.setAttribute('aria-expanded', !isExpanded);
-        
         // Optional: Lock scroll when menu is open
         document.body.classList.toggle('no-scroll', !isExpanded);
     });
