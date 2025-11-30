@@ -26,6 +26,10 @@ body {
     background-color: white;
 }
 
+/* .no-scroll {
+    overflow: hidden;
+} I tried this code on my blog on 20251130, but the page ended up locking up, so I didn't use it. */
+
 /* Headings and Typography */
 h1, h2, h3 {
     font-family: var(--font-heading);

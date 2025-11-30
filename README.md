@@ -40,16 +40,16 @@ This project uses a standard, logical file organization commonly found in web ap
 
 ```text
 /milestone-1-nurjamilahh/
-├── index.html              <-- Main landing page
+├── index.html                      <-- Main landing page
 ├── /assets/
 │   ├── /images/
-│   │   ├── nur-profile-large.webp 
+│   │   ├── nur-profile-large.webp  <-- Responsive image in WebP format
 │   │   ├── nur-profile-medium.webp
 │   │   ├── nur-profile-small.webp
 │   │   └── ...other project images
 │   └── /fonts/
 ├── /css/
-│   ├── main.css            <-- Core layout and component styles
+│   ├── main.css                    <-- Core layout and component styles
 │   ├── header-nav.css
 │   ├── about.css  
 │   ├── contact.css         
@@ -58,8 +58,8 @@ This project uses a standard, logical file organization commonly found in web ap
     ├── about.html
     └── contact.html
 
-    
 ```
+
 ---
 
 ## Features Implemented

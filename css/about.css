@@ -9,6 +9,7 @@
 /* STYLING FOR ABOUT.HTML  */
 
 .page-hero {
+    max-width: 1200px;
     padding: 4rem var(--spacing-md);
     text-align: center;
 }

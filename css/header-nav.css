@@ -12,13 +12,14 @@
     background-color: white;
     padding: 1rem 5vw; 
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    margin: 80px auto 20px auto;
+    /* margin: 80px auto 20px auto; Header pinning syntax deprecated 20251130. */
     border-radius: 8px;
     background-color: #e6e0eb;  /*Light lilac*/ 
-    /* border: 1px solid #d4af37; gold */
-    /*border: 1px solid #5a4b77; lilac
+    /* border: 1px solid #d4af37; gold
+    border: 1px solid #5a4b77; lilac
     background-color: #f2f2f2; grey */
-    position: relative;
+    position: relative; 
+    /* If I change position: relative to fixed, the hamburger goes to the left. */
     z-index: 10; 
 }
 .main-nav {
@@ -43,7 +44,7 @@
     border: none;
     cursor: pointer;
     padding: 8px;
-    z-index: 99; 
+    z-index: 100; /* Corrected on 20251201. this number must be higher than nav-links */
 }
 
 /* Mobile Menu Appearance (Hidden by default) */
@@ -57,8 +58,7 @@
     width: 100%;
     height: 100vh; 
     background-color: white;
-    z-index: 100;
-    flex-direction: column;  /* Layout for menu links inside the overlay */
+    z-index: 99; /* Corrected on 20251201. If this number is higher than menu-toggle, the hamburgen cannot be closed */
     justify-content: center;
     align-items: center;
 }

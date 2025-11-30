@@ -169,13 +169,20 @@
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
 
-    menuToggle.addEventListener('click', () => {
-        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
-        navLinks.classList.toggle('open');
-        menuToggle.setAttribute('aria-expanded', !isExpanded);
-        // Optional: Lock scroll when menu is open
-        document.body.classList.toggle('no-scroll', !isExpanded);
-    });
+    const closeMenu = () => {
+                navLinks.classList.remove('active');
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+            };
+
+    if (menuToggle && navLinks) { /* add on 20251130 */
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
+            navLinks.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            // Optional: Lock scroll when menu is open
+            document.body.classList.toggle('no-scroll', !isExpanded);
+        });
+    }
     </script>
 
 
