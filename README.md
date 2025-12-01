@@ -79,17 +79,17 @@ The implementation of this module focuses heavily on robust structure and modern
 ### 1. Mobile View ($< 768\text{px}$)
 The layout is a single, vertical column for fast scrolling and maximum readability. Navigation is condensed into a **Hamburger Icon**.
 
-![Screenshot of the project on a mobile phone](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/mobile-view.png)
+![Screenshot of the project on a mobile phone](https://raw.githubusercontent.com/webdev-3/main/mobile-view.png)
 
 ### 2. Tablet View ($\ge 768\text{px}$)
 The design expands to utilize the wider screen.
 
-![Screenshot of the project on a tablet screen](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/tablet-view.png) 
+![Screenshot of the project on a tablet screen](https://raw.githubusercontent.com/webdev-3/main/tablet-view.png) 
 
 ### 3. Desktop View ($\ge 992\text{px}$)
 This screenshot shows the full layout on a standard desktop screen.
 
-![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh/main/desktop-view.png)
+![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/webdev-3/main/desktop-view.png)
 
 ---
 
@@ -109,11 +109,11 @@ Since this is a static front-end portfolio site, it can be viewed directly after
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [https://github.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh](https://github.com/Revou-FSSE-Oct25/milestone-1-nurjamilahh)
+    git clone [https://github.com/webdev-3](https://github.com/webdev-3)
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd milestone-1-nurjamilahh
+    cd webdev-3
     ```
 3.  Open the `index.html` file in your preferred web browser to view the site.
 
