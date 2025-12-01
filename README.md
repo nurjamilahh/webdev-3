@@ -79,7 +79,7 @@ The implementation of this module focuses heavily on robust structure and modern
 ### 1. Mobile View ($< 768\text{px}$)
 The layout is a single, vertical column for fast scrolling and maximum readability. Navigation is condensed into a **Hamburger Icon**.
 
-![Screenshot of the project on a mobile phone](https://raw.githubusercontent.com/webdev-3/main/mobile-view.png)
+![Screenshot of the project on a mobile phone](https://github.com/nurjamilahh/webdev-3/blob/main/mobile-view.png)
 
 ### 2. Tablet View ($\ge 768\text{px}$)
 The design expands to utilize the wider screen.
