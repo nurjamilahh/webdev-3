@@ -28,7 +28,7 @@ body {
 
 /* .no-scroll {
     overflow: hidden;
-} I tried this code on my blog on 20251130, but the page ended up locking up, so I didn't use it. */
+} I tried this code on blog section on 20251130, but the page ended up locking up, so I didn't use it. */
 
 /* Headings and Typography */
 h1, h2, h3 {
@@ -225,7 +225,7 @@ h1, h2, h3, strong {
 .latest-posts-section {
     padding: var(--spacing-lg) var(--spacing-md);
     max-width: 900px;
-    margin: 48px auto;
+    /* margin: 48px auto; */
     display: flex; 
     align-items: flex-start;
 }
