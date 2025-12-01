@@ -84,12 +84,12 @@ The layout is a single, vertical column for fast scrolling and maximum readabili
 ### 2. Tablet View ($\ge 768\text{px}$)
 The design expands to utilize the wider screen.
 
-![Screenshot of the project on a tablet screen](https://raw.githubusercontent.com/webdev-3/main/tablet-view.png) 
+![Screenshot of the project on a tablet screen](https://github.com/nurjamilahh/webdev-3/blob/main/tablet-view.png) 
 
 ### 3. Desktop View ($\ge 992\text{px}$)
 This screenshot shows the full layout on a standard desktop screen.
 
-![Screenshot of the project on a desktop monitor](https://raw.githubusercontent.com/webdev-3/main/desktop-view.png)
+![Screenshot of the project on a desktop monitor](https://github.com/nurjamilahh/webdev-3/blob/main/desktop-view.png)
 
 ---
 
