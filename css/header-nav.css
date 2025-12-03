@@ -45,6 +45,7 @@
     border: none;
     cursor: pointer;
     padding: 8px;
+    position: absolute;
     z-index: 100; /* Corrected on 20251201. this number must be higher than nav-links */
 }
 
